@@ -1,0 +1,112 @@
+.keyboard {
+    display: grid;
+    margin-left: -60px;
+    // gap: 5px;
+
+    .keybord-top {
+        background-color: #000;
+        color: #01c7d4;
+        font-size: 16px;
+        height: 30px;
+        margin: 0 0 15px;
+        overflow: hidden;
+        padding: 7px 0 0;
+        width: 100%;
+    }
+
+    .key {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        background-color: 0;
+        border: 1px solid #000;
+        cursor: default;
+        border-radius: 10px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        padding: 12px 20px;
+
+        &__hidden {
+            border: 0;
+            cursor: default;
+        }
+
+        &__hiddenHalf {
+            border: 0;
+            cursor: default;
+            width: 22px;
+            padding: 0;
+        }
+
+        &__hiddenQuarter {
+            border: 0;
+            cursor: default;
+            width: 8px;
+            padding: 0;
+        }
+
+        &__1point25u {
+            width: 68.5px;
+        }
+
+        &__1point5u {
+            width: 78px
+        }
+
+        &__1point75u {
+            width: 90.5px
+        }
+
+        &__2u {
+            width: 106px;
+        }
+
+        &__2uVertical {
+            height: 106px;
+        }
+        
+        &__2point25u {
+            width: 122px;
+        }
+
+        &__2point75u {
+            width: 147px;
+        }
+
+        &__space {
+            width: 313px;
+        }
+
+        &__space2 {
+            width: 331px;
+        }
+
+        &__space3 {
+            width: 387px;
+        }
+
+        &__side {
+            margin-right: 12px;
+        }
+
+        &__moreSize {
+            margin-right: 68px;
+        }
+
+        &__extremlySide {
+            margin-right: 186px;
+        }
+
+        &__press {
+            background-color: yellow;
+        }
+
+        &__active {
+            background-color: white;
+        }
+    }
+
+
+}
